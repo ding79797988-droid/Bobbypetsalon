@@ -8,20 +8,21 @@
   <style>
   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;600;700;800&display=swap');
 
-  :root{
-  --bg:#FFF8F1;  
+ :root{
+  --bg:#FFFDF7;
   --card:#FFFFFF;
-  --border:#F1D3B8; 
-  --text:#2F201B;
-  --muted:#A38777;
-  --stone:#F5E8DC;
-  --dusty:#F4B183;
-  --latte:#E38B4F;
+  --border:#F6D9A8;
+  --text:#3A2A22;
+  --muted:#B7A394;
+  --stone:#FFF3DA;
+  --dusty:#FFDFAF;
+  --latte:#FFB86B;
   --danger:#C0392B;
   --radius:22px;
   --radius-sm:16px;
-  --shadow:0 10px 28px rgba(60, 40, 30, .08);
-  --shadow-sm:0 6px 16px rgba(60, 40, 30, .06);
+
+  --shadow:0 10px 28px rgba(255, 183, 107, .15);
+  --shadow-sm:0 6px 16px rgba(255, 183, 107, .10);
 }
 
   *{box-sizing:border-box}
@@ -29,7 +30,7 @@
 
   body{
     margin:0;
-    background:#FFF3E9;
+    background:#FFFBEF;
     color:var(--text);
     font-family:"Noto Sans TC",-apple-system,BlinkMacSystemFont,"PingFang TC","Heiti TC","Microsoft JhengHei",sans-serif;
     overflow-x:hidden;
@@ -115,7 +116,7 @@
   .input::placeholder{ color:rgba(47,32,27,.45); }
   .input:focus{
   border-color:var(--latte);
-  box-shadow:0 0 0 4px rgba(227,139,79,.18);
+  box-shadow:0 0 0 4px rgba(255,223,150,.35);
 }
   .input[readonly]{
     background:#F7F1EA;
@@ -179,7 +180,7 @@
     margin-top:14px;
     padding:12px;
     border-radius:16px;
-    background:#FFF4EA;
+    background:#FFF8E1;
     border:1px solid var(--border);
   }
   .checkRow input{
@@ -824,14 +825,14 @@ ______________________________________________。
 
 <script>
 (function(){
-  const LIFF_ID = "2008805180-dNJmIam4";
-  const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwwuM8s3gkAE1RxOIwCOyyiIr3JT850PR_kFuBsu_hEBn-bGF49EoJGY60etWnnNQs/exec";
-  const SHARED_SECRET = "kumajima2025";
+  const LIFF_ID = "2009765170-7GwOJkVE";
+  const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyhUzuFErtAwWuzHOYrkURn7B4uhLpzrJ3DDM7cwA3OIsJ1xx0fOiEkLHWKgRT6snfy/exec";
+  const SHARED_SECRET = "Bobbypetsalon";
 
   const STORE_VET = {
-    name: "上弦動物醫院-板橋院區",
-    phone: "(02)2272-8119",
-    address: "新北市板橋區府中路126號之1"
+    name: "登華動物醫院",
+    phone: "(02)2206-0006",
+    address: "242新北市新莊區龍安路256號2樓"
   };
 
   const canvas = document.getElementById("sig");
